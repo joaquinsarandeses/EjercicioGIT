@@ -7,6 +7,7 @@
 //mariohgcte@gmail.com
 //garciatorregrosacarlos@gmail.com
 //iker_rero_m-tsapp1ta2122@cev.com
+//Daniel (abbydomi) abbytorade@icloud.com
 
 import UIKit
 
