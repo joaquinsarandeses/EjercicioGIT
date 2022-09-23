@@ -11,7 +11,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        //A
         let ArrayNum = [1,2,3,5,8,15,31]
         
         
@@ -20,7 +20,8 @@ class ViewController: UIViewController {
         }
             
         }
-        
+        //B
+        multiplication(factorPrimero: 5, factorSegundo: 3)
     }
 
     func oddOrEven(x: Int){
@@ -31,4 +32,8 @@ class ViewController: UIViewController {
         }
 }
 
+    func multiplication(factorPrimero: Int, factorSegundo: Int){
+        print("El resultaddo es: ",factorPrimero*factorSegundo)
+    }
 
+}
