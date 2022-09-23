@@ -15,17 +15,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         //A
         let ArrayNum = [1,2,3,5,8,15,31]
         for i in 1...ArrayNum.count-1{
             oddOrEven(x: ArrayNum[i])
         }
-            
-        }
-        
+           
         //B
         multiplication(factorPrimero: 5, factorSegundo: 3)
-            
+        
     }
         
     func oddOrEven(x: Int){
@@ -35,7 +34,6 @@ class ViewController: UIViewController {
             print("\(x) es impar")
         }
     }
-}
 
     func multiplication(factorPrimero: Int, factorSegundo: Int){
         print("El resultaddo es: ",factorPrimero*factorSegundo)
