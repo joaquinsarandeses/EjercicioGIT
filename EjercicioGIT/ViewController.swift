@@ -25,9 +25,9 @@ class ViewController: UIViewController {
 
     func oddOrEven(x: Int){
         if x % 2 == 0 {
-            print("Es par")
+            print("\(x) es par")
         } else {
-            print("Es impar")
+            print("\(x) es impar")
         }
 }
 
