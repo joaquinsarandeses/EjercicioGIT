@@ -12,7 +12,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        oddOrEven(x: 12)
+        let ArrayNum = [1,2,3,5,8,15,31]
+        
+        
+        for i in 1...ArrayNum.count-1{
+            oddOrEven(x: ArrayNum[i])
+        }
+            
+        }
+        
     }
 
     func oddOrEven(x: Int){
@@ -21,6 +29,6 @@ class ViewController: UIViewController {
         } else {
             print("Es impar")
         }
-    }
 }
+
 
