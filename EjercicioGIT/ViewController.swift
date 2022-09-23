@@ -12,8 +12,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        oddOrEven(x: 12)
     }
 
-
+    func oddOrEven(x: Int){
+        if x % 2 == 0 {
+            print("Es par")
+        } else {
+            print("Es impar")
+        }
+    }
 }
 
