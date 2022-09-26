@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         
         //A
         let ArrayNum = [1,2,3,5,8,15,31]
-        for i in 1...ArrayNum.count-1{
+        for i in 0...ArrayNum.count-1{
             oddOrEven(x: ArrayNum[i])
         }
            
